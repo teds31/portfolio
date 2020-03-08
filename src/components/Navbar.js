@@ -37,13 +37,13 @@ const Navbar = () => {
         </li>
         <li sx={{ p: 3 }}>
           <Link
-            to="/page-2/"
+            to="/blog/"
             sx={{ color: "primary", textDecoration: "none", outline: 0 }}
           >
             Blog
           </Link>
         </li>
-        <li sx={{ p: 3 }}>
+        {/* <li sx={{ p: 3 }}>
           <Link
             to="/page-2"
             sx={{
@@ -54,7 +54,7 @@ const Navbar = () => {
           >
             Resume
           </Link>
-        </li>
+        </li> */}
       </ul>
       <button
         type="button"
