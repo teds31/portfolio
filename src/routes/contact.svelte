@@ -1,8 +1,8 @@
 <script>
-	import { Recaptcha, recaptcha, observer } from 'svelte-recaptcha-v2';
+	// import { Recaptcha, recaptcha, observer } from 'svelte-recaptcha-v2';
 	import Footer from '$lib/components/Footer.svelte';
 
-	const googleRecaptchaSiteKey = 'key';
+	// const googleRecaptchaSiteKey = 'key';
 </script>
 
 <div class="body h-full md:h-screen">
@@ -88,7 +88,7 @@
 						</svg>
 					</span>
 				</button>
-				<Recaptcha
+				<!-- <Recaptcha
 					sitekey={googleRecaptchaSiteKey}
 					badge={'top'}
 					size={'invisible'}
@@ -97,7 +97,7 @@
 					on:expired={onCaptchaExpire}
 					on:close={onCaptchaClose}
 					on:ready={onCaptchaReady}
-				/>
+				/> -->
 			</form>
 		</div>
 	</div>

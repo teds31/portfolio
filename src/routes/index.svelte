@@ -36,7 +36,44 @@
 					Outside of work, I am the goaltending coordinator for the Vegas Golden Knights youth
 					programs, a certified mental performance coach, loving husband, hiker, and doggo dad.
 				</p>
-				<p>Contact me <a class="underline" href="/contact">here</a></p>
+				<p>
+					You can contact me
+					<a
+						class="border bg-white px-4 py-1 text-black rounded shadow-lg font-bold"
+						href="/contact"
+					>
+						<span class="inline-block pr-1"> here </span>
+
+						<span class="inline-block align-middle">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+								data-reactroot=""
+							>
+								<path
+									stroke-linejoin="round"
+									stroke-linecap="round"
+									stroke-miterlimit="10"
+									stroke-width="1"
+									stroke="#221b38"
+									fill="none"
+									d="M20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20Z"
+								/>
+								<path
+									stroke-linecap="round"
+									stroke-miterlimit="10"
+									stroke-width="1"
+									stroke="#221b38"
+									fill="none"
+									d="M20 4H4C2.9 4 2 4.9 2 6L12 13L22 6C22 4.9 21.1 4 20 4Z"
+								/>
+							</svg>
+						</span>
+					</a>
+				</p>
 				<p>Or, visit any of these links to learn more about me!</p>
 				<!-- /content  -->
 				<!-- button links  -->
