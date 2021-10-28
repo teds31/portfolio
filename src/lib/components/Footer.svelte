@@ -1,7 +1,7 @@
 <footer>
 	<div class="container mx-auto py-4">
 		<div class="flex">
-			<div class="flex-row mx-auto">
+			<div class="flex-row mx-auto px-12 text-center">
 				<p class="text-white">
 					Made with <a class="underline" href="https://kit.svelte.dev" target="_blank">SvelteKit</a>
 					&

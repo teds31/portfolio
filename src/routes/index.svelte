@@ -1,5 +1,6 @@
 <script>
 	import Footer from '$lib/components/Footer.svelte';
+	import image from '../../static/stencil.large-square.png';
 </script>
 
 <div class="body h-full md:h-screen">
@@ -9,7 +10,7 @@
 				<!-- content  -->
 				<img
 					class="rounded-full shadow-lg my-8 mx-auto max-h-52 lg:max-h-96"
-					src="/static/stencil.large-square.png"
+					src={image}
 					alt="Teddy Stanowski"
 				/>
 				<h3>Hello World!</h3>
@@ -35,10 +36,12 @@
 					Outside of work, I am the goaltending coordinator for the Vegas Golden Knights youth
 					programs, a certified mental performance coach, loving husband, hiker, and doggo dad.
 				</p>
-				<p>Visit any of these links to learn more about me!</p>
+				<p>Contact me <a class="underline" href="/contact">here</a></p>
+				<p>Or, visit any of these links to learn more about me!</p>
 				<!-- /content  -->
 				<!-- button links  -->
 				<div class="flex-row lg:space-x-6 mt-2 mb-4 lg:mt-4 lg:mb-4">
+					<!-- blog  -->
 					<a sveltekit:prefetch href="/blog">
 						<button class="border rounded py-1 px-4 mx-3 my-3">
 							<span class="btn-text">Blog</span>
@@ -96,6 +99,7 @@
 							</span>
 						</button>
 					</a>
+					<!-- linkedin -->
 					<a href="https://www.linkedin.com/in/teddy-stanowski/" target="_blank">
 						<button class="border rounded py-1 px-4 mx-3 my-3">
 							<span class="btn-text">LinkedIn</span>
@@ -146,6 +150,7 @@
 							</span>
 						</button>
 					</a>
+					<!-- github -->
 					<a href="https://github.com/teds31" target="_blank">
 						<button class="border rounded py-1 px-4 mx-3 my-3">
 							<span class="btn-text"> GitHub </span>
@@ -167,6 +172,7 @@
 							</span>
 						</button>
 					</a>
+					<!-- twitter  -->
 					<a href="https://www.twitter.com/teddystanowski" target="_blank">
 						<button class="border rounded py-1 px-4 mx-3 my-3">
 							<span class="btn-text">Twitter</span>
@@ -197,9 +203,6 @@
 </div>
 
 <style lang="postcss">
-	* {
-		box-sizing: border-box;
-	}
 	.body {
 		background: linear-gradient(271deg, #3d2466, #b0344e, #3162c5);
 		background-size: 600% 600%;
@@ -254,7 +257,6 @@
 			background-position: 0% 63%;
 		}
 	}
-
 	h3 {
 		font-size: 32px;
 		color: white;
@@ -266,6 +268,7 @@
 	}
 	button {
 		@apply shadow-lg;
+		color: black;
 		background-color: white;
 		font-weight: bold;
 		width: 135px;
