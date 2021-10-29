@@ -9,10 +9,10 @@
 <div class="max-w-screen-2xl">
 	<div class="flex justify-between p-4">
 		<a href="/">
-			<button class="bg-white rounded px-4 py-1 font-bold text-black shadow-lg"> HomePage </button>
+			<button class="bg-white rounded px-4 py-2 font-bold text-black shadow-lg"> HomePage </button>
 		</a>
 		<a href="/blog">
-			<button class="bg-white rounded px-4 py-1 font-bold text-black shadow-lg"> Blog </button>
+			<button class="bg-white rounded px-4 py-2 font-bold text-black shadow-lg"> Blog </button>
 		</a>
 	</div>
 </div>

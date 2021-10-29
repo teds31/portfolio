@@ -7,13 +7,19 @@
 <div class="max-w-screen-2xl">
 	<div class="flex justify-between p-4">
 		<a href="/">
-			<button class="bg-white rounded px-4 py-1 font-bold text-black shadow-lg"> HomePage </button>
-		</a>
-		<a href="/contact">
-			<button class="bg-white rounded px-4 py-1 font-bold text-black shadow-lg">
-				Contact Me
+			<button class="bg-white rounded-full p-3 font-bold text-black shadow-lg">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+					><path
+						d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z"
+					/></svg
+				>
 			</button>
 		</a>
+		<!-- <a href="/contact">
+			<button class="bg-white rounded px-4 py-2 font-bold text-black shadow-lg">
+				Contact Me
+			</button>
+		</a> -->
 	</div>
 </div>
 <div class="flex justify-center my-8 lg:my-4">

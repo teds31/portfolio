@@ -1,5 +1,5 @@
 <footer>
-	<div class="container mx-auto py-4">
+	<div class="container mx-auto py-4 font-inter">
 		<div class="flex">
 			<div class="flex-row mx-auto px-12 text-center">
 				<p class="text-white">
