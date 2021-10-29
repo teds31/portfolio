@@ -16,7 +16,7 @@
 		</a>
 	</div>
 </div>
-<div class="flex justify-center my-8">
+<div class="flex justify-center my-8 lg:my-4">
 	<div class="mx-auto px-4 md:px-0">
 		<img src={logo} alt="Teddy Code Bytes Blog" class="h-32" />
 	</div>
@@ -25,7 +25,7 @@
 <!-- /posts -->
 <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-12 lg:px-8 my-8">
 	<article>
-		<div class="card bordered">
+		<div class="card bg-gray-600 shadow-lg">
 			<figure>
 				<img src="https://picsum.photos/id/1005/400/250" />
 			</figure>

@@ -3,20 +3,21 @@
 	import image from '../../static/stencil.large-square.png';
 </script>
 
-<div class="body h-full md:h-screen xl:h-full">
-	<div class="container mx-auto">
-		<div class="flex">
-			<div class="flex-col px-2 md:px-12 mx-auto text-center max-w-4xl">
-				<!-- content  -->
-				<img
-					class="rounded-full shadow-lg my-8 mx-auto max-h-52 lg:max-h-96"
-					src={image}
-					alt="Teddy Stanowski"
-				/>
-				<h3>Hello World!</h3>
+<div class="container mx-auto font-inter">
+	<div class="flex">
+		<div class="flex-col px-2 md:px-8 mx-auto text-center max-w-4xl">
+			<!-- header  -->
+			<img
+				class="rounded-full shadow-lg my-8 mx-auto max-h-52 lg:max-h-60"
+				src={image}
+				alt="Teddy Stanowski"
+			/>
+			<h3>Hello World!</h3>
+			<!-- /header  -->
+			<div class="content">
 				<p>
 					My name is Teddy, and I enjoy being a FrontEnd Engineer and implementing <a
-						class="underline"
+						class="underline font-bold"
 						href="https://www.jamstack.org"
 						target="_blank">Jamstack</a
 					>
@@ -24,26 +25,29 @@
 				</p>
 				<p>
 					Currently, I'm at working at <a
-						class="underline"
+						class="underline font-bold"
 						href="https://www.hdsupply.com"
 						target="_blank">HD Supply</a
 					>
 					as a UI developer and I am implementing
-					<a class="underline" href="https://www.svelte.dev" target="_blank">Svelte</a> into their e-commerce
-					ecosystem and helping them modernize their tech stack.
+					<a class="underline font-bold" href="https://www.svelte.dev" target="_blank">Svelte</a> into
+					their e-commerce ecosystem and helping them modernize their tech stack.
 				</p>
 				<p>
 					Outside of work, I am the goaltending coordinator for the Vegas Golden Knights youth
 					programs, a certified mental performance coach, loving husband, hiker, and doggo dad.
 				</p>
+			</div>
+			<!-- /content  -->
+			<!-- contact  -->
+			<div class="contact">
 				<p>
 					You can contact me
 					<a
-						class="border bg-white px-4 py-1 text-black rounded shadow-lg font-bold"
+						class="border bg-white px-4 py-2 text-black rounded shadow-lg font-bold"
 						href="/contact"
 					>
 						<span class="inline-block pr-1"> here </span>
-
 						<span class="inline-block align-middle">
 							<svg
 								width="24"
@@ -74,13 +78,17 @@
 						</span>
 					</a>
 				</p>
-				<p>Or, visit any of these links to learn more about me!</p>
+			</div>
+			<!-- /contact -->
+			<!-- links  -->
+			<div class="links">
+				<p class="text-lg">Or, visit any of these links to learn more about me!</p>
 				<!-- /content  -->
 				<!-- button links  -->
 				<div class="flex-row lg:space-x-6 mt-2 mb-4 lg:mt-4 lg:mb-4">
 					<!-- blog  -->
 					<a sveltekit:prefetch href="/blog">
-						<button class="border rounded py-1 px-4 mx-3 my-3">
+						<button class="border rounded py-2 px-4 mx-3 my-3">
 							<span class="btn-text">Blog</span>
 							<span class="btn-icon">
 								<svg
@@ -138,7 +146,7 @@
 					</a>
 					<!-- linkedin -->
 					<a href="https://www.linkedin.com/in/teddy-stanowski/" target="_blank">
-						<button class="border rounded py-1 px-4 mx-3 my-3">
+						<button class="border rounded py-2 px-4 mx-3 my-3">
 							<span class="btn-text">LinkedIn</span>
 							<span class="btn-icon">
 								<svg
@@ -189,7 +197,7 @@
 					</a>
 					<!-- github -->
 					<a href="https://github.com/teds31" target="_blank">
-						<button class="border rounded py-1 px-4 mx-3 my-3">
+						<button class="border rounded py-2 px-4 mx-3 my-3">
 							<span class="btn-text"> GitHub </span>
 							<span class="btn-icon">
 								<svg
@@ -211,7 +219,7 @@
 					</a>
 					<!-- twitter  -->
 					<a href="https://www.twitter.com/teddystanowski" target="_blank">
-						<button class="border rounded py-1 px-4 mx-3 my-3">
+						<button class="border rounded py-2 px-4 mx-3 my-3">
 							<span class="btn-text">Twitter</span>
 							<span class="btn-icon">
 								<svg
@@ -234,74 +242,27 @@
 				</div>
 				<!-- /button links -->
 			</div>
+			<!-- links  -->
 		</div>
 	</div>
-	<Footer />
 </div>
+<Footer />
 
 <style lang="postcss">
-	.body {
-		background: linear-gradient(271deg, #3d2466, #b0344e, #3162c5);
-		background-size: 600% 600%;
-
-		-webkit-animation: AnimationName 15s ease infinite;
-		-moz-animation: AnimationName 15s ease infinite;
-		-o-animation: AnimationName 15s ease infinite;
-		animation: AnimationName 15s ease infinite;
-	}
-
-	@-webkit-keyframes AnimationName {
-		0% {
-			background-position: 0% 63%;
-		}
-		50% {
-			background-position: 100% 38%;
-		}
-		100% {
-			background-position: 0% 63%;
-		}
-	}
-	@-moz-keyframes AnimationName {
-		0% {
-			background-position: 0% 63%;
-		}
-		50% {
-			background-position: 100% 38%;
-		}
-		100% {
-			background-position: 0% 63%;
-		}
-	}
-	@-o-keyframes AnimationName {
-		0% {
-			background-position: 0% 63%;
-		}
-		50% {
-			background-position: 100% 38%;
-		}
-		100% {
-			background-position: 0% 63%;
-		}
-	}
-	@keyframes AnimationName {
-		0% {
-			background-position: 0% 63%;
-		}
-		50% {
-			background-position: 100% 38%;
-		}
-		100% {
-			background-position: 0% 63%;
-		}
-	}
 	h3 {
 		font-size: 32px;
 		color: white;
 	}
-	p {
+	.content p {
 		font-size: 18px;
 		color: white;
-		margin: 1rem 0;
+		margin: 2rem 0;
+	}
+
+	.contact p {
+		font-size: 18px;
+		color: white;
+		margin: 2rem 0;
 	}
 	button {
 		@apply shadow-lg;
