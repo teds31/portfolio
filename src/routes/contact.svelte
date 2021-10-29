@@ -5,13 +5,13 @@
 	// const googleRecaptchaSiteKey = 'key';
 </script>
 
-<div class="body h-full md:h-screen">
+<div class="body h-full md:h-screen xl:h-full">
 	<!-- navigation links  -->
 	<div class="max-w-screen-2xl">
 		<div class="flex justify-between p-4">
 			<a href="/">
 				<button class="bg-white rounded px-4 py-1 font-bold text-black shadow-lg">
-					Return To Main Page
+					HomePage
 				</button>
 			</a>
 			<a href="/blog">

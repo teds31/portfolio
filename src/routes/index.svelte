@@ -3,7 +3,7 @@
 	import image from '../../static/stencil.large-square.png';
 </script>
 
-<div class="body h-full md:h-screen">
+<div class="body h-full md:h-screen xl:h-full">
 	<div class="container mx-auto">
 		<div class="flex">
 			<div class="flex-col px-2 md:px-12 mx-auto text-center max-w-4xl">
