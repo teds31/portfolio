@@ -5,7 +5,7 @@
 
 <div class="container mx-auto font-inter">
 	<div class="flex">
-		<div class="flex-col px-2 md:px-8 mx-auto text-center max-w-4xl">
+		<div class="flex-col px-4 md:px-8 mx-auto text-center max-w-4xl">
 			<!-- header  -->
 			<img
 				class="rounded-full shadow-lg my-8 mx-auto max-h-52 lg:max-h-60"
@@ -82,7 +82,7 @@
 			<!-- /contact -->
 			<!-- links  -->
 			<div class="links">
-				<p class="text-lg">Or, visit any of these links to learn more about me!</p>
+				<p class="text-lg px-6">Visit these links to learn more about me!</p>
 				<!-- /content  -->
 				<!-- button links  -->
 				<div class="flex-row lg:space-x-6 mt-2 mb-4 lg:mt-4 lg:mb-4">
